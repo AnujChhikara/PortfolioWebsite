@@ -1,7 +1,7 @@
 import "./App.css"
 function Snow() {
   return (
-    <div class="hero">
+    <div class="hero w-screen h-screen">
 
 <div class="snow relative">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMax slice">

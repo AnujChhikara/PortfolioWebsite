@@ -44,9 +44,37 @@
 	 transform: translateY(-768px);
 	 animation: fall 45s infinite linear;
 }
+
+.animation:hover {
+    fill: red;
+    animation: color-animation 2s ease-in-out;
+}
+
+.animation {
+    fill: black;
+    animation: color-animation-reverse 2s ease-in-out;
+}
+
  @keyframes fall {
 	 100% {
 		 transform: translateY(0);
 	}
 }
  
+@keyframes color-animation {
+	0% {
+	  fill: black;
+	}
+	100% {
+	  fill: red;
+	}
+  }
+  
+  @keyframes color-animation-reverse {
+	0% {
+	  fill: red;
+	}
+	100% {
+	  fill: black;
+	}
+  }
