@@ -4,7 +4,7 @@ import Snow from './Components/Snow';
 import './App.css'
 import "animate.css"
 import Intro from './Components/Intro';
-import Tech from './Components/Tech';
+
 
 import Navbar from './Components/Navbar'
 
@@ -31,7 +31,7 @@ function Home() {
       <Snowman/>
       </div>
       <div>
-      <Tech/>
+      
       </div>
         <footer className='opacity-80 pb-2  mt-auto font-sans font-medium w-screen flex justify-center '>built with ❤️ anuj</footer>
    
