@@ -3,7 +3,7 @@ function Snow() {
   return (
     <div class="hero w-screen h-screen">
 
-<div class="snow h-full w-full ">
+<div className="snow h-full w-full ">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMax slice">
     <g fill="#FFF" fill-opacity=".15" transform="translate(55 42)">
      <g id="snow-bottom-layer">
