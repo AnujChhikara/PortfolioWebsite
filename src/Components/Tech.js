@@ -1,6 +1,6 @@
-function Tech() {
+function Tech(props) {
   return (
-    <div className="flex border hover:scale-105  duration-1000 flex-wrap md:space-x-16 sm:space-x-2 p-2 border-3xl border-[#A31ACB] shadow-2xl shadow-[#A31ACB]  w-[800px] h-80 justify-center items-center">
+    <div className="flex border hover:scale-105  duration-1000 flex-wrap md:space-x-16 sm:space-x-2 p-2 border-3xl border-[#A31ACB] shadow-2xl shadow-[#A31ACB] md:mb-20 md:w-[800px] md:h-80 sm:w-[340px] sm:h-60  justify-center items-center">
       <div className="w-16">
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26" />
@@ -34,7 +34,7 @@ function Tech() {
         </svg>
       </div>
 
-      <div className="w-16">
+      <div className="w-16 hover:animate-spin duration-500">
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M18.6789 15.9759C18.6789 14.5415 17.4796 13.3785 16 13.3785C14.5206 13.3785 13.3211 14.5415 13.3211 15.9759C13.3211 17.4105 14.5206 18.5734 16 18.5734C17.4796 18.5734 18.6789 17.4105 18.6789 15.9759Z"
@@ -80,7 +80,7 @@ function Tech() {
           />
         </svg>
       </div>
-      <div className="w-16">
+      <div className={`w-16 ${props.darkMode ? "fill-white" : "fill-black"} `}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 32 32"

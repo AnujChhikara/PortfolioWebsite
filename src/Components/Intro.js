@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 
 function Intro(props) {
   return (
-    <div className="md:flex md:flex-row font-Sans sm:flex sm:flex-col md:mx-72 sm:mx-10 sm:items-center items-center space-x-2 fade-in-left">
+    <div className="md:flex md:flex-row font-Sans sm:flex sm:flex-col  sm:items-center items-center space-x-2 fade-in-left">
       <img
         className="md:w-60 sm:w-32 rounded-full "
         src="/profile.jpeg"
