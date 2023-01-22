@@ -1,4 +1,16 @@
+import ProjectCard from "./ProjectCard";
+import ProjectData from "./ProjectData";
 function Projects(props) {
+  const cards = ProjectData.map(function (item) {
+    return (
+      <ProjectCard
+        title={item.title}
+        svg={item.svg}
+        brief={item.brief}
+        link={item.link}
+      />
+    );
+  });
   return (
     <div className="mt-10 flex flex-col justify-center items-center space-y-4 sm:px-6 md:px-16 mx-12 sm:mx-4">
       <div className="mb-2">
@@ -7,7 +19,9 @@ function Projects(props) {
           <hr className="h-0.5 mt-1 border border-gray-700" />
         </h2>
       </div>
-      <div></div>
+      <div className="sm:flex sm:flex-col md:flex md:flex-row md:flex-wrap md:space-x-8 sm:space-x-0 justify-center items-center sm:space-y-4 md:space-y-0">
+        {cards}
+      </div>
 
       <div
         className={`border border-[#A31ACB] p-2 rounded-lg shadow-md shadow-[#A31ACB] sm:text-sm md:text-lg ${
@@ -17,7 +31,7 @@ function Projects(props) {
         } `}
       >
         <div>
-          <p className="text-sm font-thin tracking-tight">
+          <p className="w-72 text-sm font-thin tracking-tight">
             I'm excited to keep learning and building more cool projects. As I
             get better, I'll be taking on bigger and more complex projects, and
             I can't wait to show you what I'll come up with next.

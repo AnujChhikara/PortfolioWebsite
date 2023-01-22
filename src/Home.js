@@ -7,14 +7,14 @@ import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 
 function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   function toggleDarkMode() {
     setDarkMode((prevDarkMode) => !prevDarkMode);
   }
 
   return (
     <div
-      className={`font-nunito flex flex-col  items-center justify-center font-semibold w-screen h-full ${
+      className={`font-nunito flex flex-col  items-center justify-center font-semibold  ${
         darkMode
           ? "bg-gradient-to-b from-gray-700 via-gray-900 to-black text-white"
           : "bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900"
@@ -50,6 +50,32 @@ function Home() {
       </div>
       <div>
         <Projects darkMode={darkMode} />
+      </div>
+      <div className="mt-12 px-4 sm:w-72 border mx-4 border-[#A31ACB] rounded-md text-gray-300 py-4">
+        <h4>
+          Thanks for visiting my website. Your support is appreciated. Let me
+          know if you have any feedback. 😊
+        </h4>
+      </div>
+      <div className="w-32 mt-4 flex space-x-4 ">
+        <a
+          className="hover:scale-110 duration-1000"
+          href="mailto:anujchhikara777@gmail.com"
+        >
+          <img
+            src="https://www.svgrepo.com/show/404657/email-notification-message-envelope-letter-chat.svg"
+            alt=""
+          />
+        </a>
+        <a
+          className="hover:scale-110 duration-1000"
+          href="https://github.com/AnujChhikara"
+        >
+          <img
+            src="https://www.svgrepo.com/show/372862/github-full.svg"
+            alt=""
+          />
+        </a>
       </div>
 
       <footer className="opacity-80 pb-2 pt-10 mt-auto font-sans font-medium w-screen flex justify-center ">
