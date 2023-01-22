@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-
 import "./App.css";
-import "animate.css";
 import Intro from "./Components/Intro";
 import Tech from "./Components/Tech";
-
+import Projects from "./Components/Projects";
 import Navbar from "./Components/Navbar";
 
 function Home() {
@@ -22,23 +20,34 @@ function Home() {
       } `}
     >
       <div className="mb-2">
-        <div className="md:mb-28 sm:mb-20 ">
+        <div className="md:mb-28 sm:mb-10 mr-2">
           <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         </div>
       </div>
       <div className="mb-20 ">
         <Intro darkMode={darkMode} />
       </div>
-      <div className=" flex  flex-col justify-center mt-10 ">
-        <div>
-          <h3 className={`text-2xl font-Sans mb-4`}>
+      <div className=" flex  flex-col justify-center items-center mt-10 mb-20">
+        <div className="flex flex-col md:mb-8 sm:mb-6">
+          <h3 className={`text-2xl font-Sans font-semibold `}>
             Technologies I Work With
           </h3>
+          <hr />
         </div>
-        <div className="">
+        <div
+          className={`${
+            darkMode
+              ? "bg-transparent"
+              : "bg-gradient-to-r from-orange-300 to-rose-300"
+          } hover:scale-105 duration-1000 rounded-lg hover:shadow-orange-300 hover:shadow-sm`}
+        >
           <Tech darkMode={darkMode} />
         </div>
       </div>
+      <div>
+        <Projects />
+      </div>
+
       <footer className="opacity-80 pb-2 pt-10 mt-auto font-sans font-medium w-screen flex justify-center ">
         built with ❤️ anuj
       </footer>
