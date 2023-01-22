@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "./App.css";
 import Intro from "./Components/Intro";
 import Tech from "./Components/Tech";
-import Projects from "./Components/Projects";
+import Journey from "./Components/Journey";
 import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
 
 function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -32,20 +33,23 @@ function Home() {
           <h3 className={`text-2xl font-Sans font-semibold `}>
             Technologies I Work With
           </h3>
-          <hr />
+          <hr className="h-0.5 border border-gray-700" />
         </div>
         <div
           className={`${
             darkMode
               ? "bg-transparent"
-              : "bg-gradient-to-r from-orange-300 to-rose-300"
+              : "bg-gradient-to-r from-rose-100 to-teal-100"
           } hover:scale-105 duration-1000 rounded-lg hover:shadow-orange-300 hover:shadow-sm`}
         >
           <Tech darkMode={darkMode} />
         </div>
       </div>
       <div>
-        <Projects />
+        <Journey darkMode={darkMode} />
+      </div>
+      <div>
+        <Projects darkMode={darkMode} />
       </div>
 
       <footer className="opacity-80 pb-2 pt-10 mt-auto font-sans font-medium w-screen flex justify-center ">
