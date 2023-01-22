@@ -18,7 +18,7 @@ function Intro(props) {
         </div>
 
         <div
-          className={`md:text-2xl sm:text-lg mt-4 absolute ${
+          className={`md:text-2xl sm:text-lg mt-4 px-2 absolute ${
             props.darkMode ? "text-gray-300" : "text-[#434242]"
           }  `}
         >

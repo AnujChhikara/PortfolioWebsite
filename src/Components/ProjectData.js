@@ -21,7 +21,7 @@ const projectData = [
     ),
     brief:
       "Your website is a to-do app built with React, TypeScript and Tailwind CSS, it has draggable feature for task reordering.",
-    link: "",
+    link: "https://anuj-todoapp.netlify.app",
     new: "",
   },
   {
@@ -118,7 +118,7 @@ const projectData = [
     ),
     brief:
       "A React-Tailwind game where players roll dice until all dice show the same number.",
-    link: "",
+    link: "https://tenzie-anuj.netlify.app/",
     new: "",
   },
   {
@@ -144,7 +144,7 @@ const projectData = [
     ),
     brief:
       "A simple website created to learn React routing and incorporate Tailwind CSS for design and layout.",
-    link: "",
+    link: "https://anuj-react-router.netlify.app/",
     new: "",
   },
   {
@@ -158,7 +158,7 @@ const projectData = [
     ),
     brief:
       "A Hangman game built to learn Typescript, using it to improve type safety and scalability.",
-    link: "",
+    link: "https://hangman-anuj.netlify.app/",
     new: "",
   },
 ];

@@ -1,6 +1,6 @@
 function ProjectCard(props) {
   return (
-    <div className="md:w-80 sm:w-[300px] text-gray-400 md:h-40 sm:h-36 border border-black rounded shadow-lg px-3 pt-2">
+    <div className="md:w-72 sm:w-[300px] md:h-40 sm:h-36 border border-black rounded shadow-lg px-3 pt-2 hover:scale-105 duration-700">
       <div>
         <div className="flex space-x-6 items-center justify-center  ">
           <div className="w-12">{props.svg}</div>

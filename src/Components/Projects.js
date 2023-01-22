@@ -12,14 +12,18 @@ function Projects(props) {
     );
   });
   return (
-    <div className="mt-10 flex flex-col justify-center items-center space-y-4 sm:px-6 md:px-16 mx-12 sm:mx-4">
+    <div className="mt-10 flex flex-col justify-center items-center space-y-4 sm:px-6  md:px-16 mx-12 sm:mx-4">
       <div className="mb-2">
         <h2 className="text-xl">
           My First Steps in MERN Stack{" "}
           <hr className="h-0.5 mt-1 border border-gray-700" />
         </h2>
       </div>
-      <div className="sm:flex sm:flex-col md:flex md:flex-row md:flex-wrap md:space-x-8 sm:space-x-0 justify-center items-center sm:space-y-4 md:space-y-0">
+      <div
+        className={`sm:flex ${
+          props.darkMode ? "text-gray-400" : "text-black"
+        }  sm:flex-col md:flex md:flex-row md:space-x-8 sm:space-x-0 justify-center sm:items-center sm:space-y-4 md:space-y-0`}
+      >
         {cards}
       </div>
 
@@ -30,7 +34,7 @@ function Projects(props) {
             : "text-black bg-gradient-to-r from-rose-100 to-teal-100 "
         } `}
       >
-        <div>
+        <div className="">
           <p className="w-72 text-sm font-thin tracking-tight">
             I'm excited to keep learning and building more cool projects. As I
             get better, I'll be taking on bigger and more complex projects, and
