@@ -1,6 +1,6 @@
 function Journey(props) {
   return (
-    <div className="flex flex-col justify-center items-center space-y-4 sm:px-6 md:px-16 mx-12 sm:mx-2">
+    <div className="flex flex-col justify-center items-center space-y-4 sm:px-6 md:px-32 mx-12 sm:mx-2">
       <div className="mb-2">
         <h2 className={`text-xl `}>
           My Development Journey

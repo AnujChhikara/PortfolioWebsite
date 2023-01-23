@@ -67,7 +67,7 @@ function Home() {
       </div>
       {/* Thank you */}
       <div
-        data-aos="slide-up"
+        data-aos="flip-down"
         className="mt-12 mx-auto px-4 sm:w-72 border  border-[#A31ACB] rounded-md text-gray-400 py-4"
       >
         <h4 className={`${darkMode ? "text-gray-400" : "text-black"}`}>

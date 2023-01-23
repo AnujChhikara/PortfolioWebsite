@@ -20,7 +20,7 @@ const projectData = [
       </svg>
     ),
     brief:
-      "Your website is a to-do app built with React, TypeScript and Tailwind CSS, it has draggable feature for task reordering.",
+      "Simple to-do app built with React, TypeScript and Tailwind CSS, it has draggable feature for task reordering.",
     link: "https://anuj-todoapp.netlify.app",
     new: "",
   },

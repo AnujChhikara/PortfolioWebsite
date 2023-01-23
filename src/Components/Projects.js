@@ -22,7 +22,7 @@ function Projects(props) {
       <div
         className={`sm:flex ${
           props.darkMode ? "text-gray-400" : "text-black"
-        }  sm:flex-col md:flex md:flex-row md:space-x-8 sm:space-x-0 justify-center sm:items-center sm:space-y-4 md:space-y-0`}
+        }  sm:flex-col md:grid md:grid-cols-2 md:gap-4 sm:space-x-0 sm:items-center sm:space-y-4 md:space-y-0 `}
       >
         {cards}
       </div>
