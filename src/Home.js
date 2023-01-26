@@ -21,7 +21,7 @@ function Home() {
     <div
       className={`font-nunito flex flex-col md:items-center justify-center font-semibold w-screen h-fit  ${
         darkMode
-          ? "bg-gradient-to-b from-gray-700 via-gray-900 to-black text-white"
+          ? "bg-gray-900 text-white "
           : "bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900"
       } `}
     >
@@ -47,9 +47,7 @@ function Home() {
         </div>
         <div
           className={`${
-            darkMode
-              ? "bg-transparent"
-              : "bg-gradient-to-r from-rose-100 to-teal-100"
+            darkMode ? "bg-transparent" : "bg-teal-100"
           } hover:scale-105 duration-1000 rounded-lg hover:shadow-orange-300 hover:shadow-sm`}
         >
           <Tech darkMode={darkMode} />

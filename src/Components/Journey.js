@@ -11,7 +11,7 @@ function Journey(props) {
         className={`sm:text-sm md:text-lg ${
           props.darkMode
             ? "text-gray-400 bg-transparent"
-            : "text-black bg-gradient-to-r from-rose-100 to-teal-100 "
+            : "text-black bg-teal-100 "
         } border hover:scale-105 duration-1000 border-[#A31ACB] p-2  rounded-lg shadow-md shadow-[#A31ACB] flex flex-col space-y-4 tracking-tight font-thin `}
       >
         <div className="px-4 rounded-lg ">

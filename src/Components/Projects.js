@@ -29,9 +29,7 @@ function Projects(props) {
 
       <div
         className={`border border-[#A31ACB] p-2 rounded-lg shadow-md shadow-[#A31ACB] sm:text-sm md:text-lg ${
-          props.darkMode
-            ? "text-gray-400 bg-transparent"
-            : "text-black bg-gradient-to-r from-rose-100 to-teal-100 "
+          props.darkMode ? "text-gray-400 bg-transparent" : "text-black "
         } `}
       >
         <div className="">
