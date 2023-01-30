@@ -26,11 +26,11 @@ function Home() {
       } `}
     >
       {/* Navbar */}
-      <div className="mb-2">
+      <header className="mb-2">
         <div className="md:mb-28 sm:mb-10 mr-2">
           <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         </div>
-      </div>
+      </header>
 
       {/* Intro */}
       <div data-aos="fade-in" className="mb-20  ">
