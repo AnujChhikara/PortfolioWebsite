@@ -6,7 +6,7 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <div>
+  <body>
     <Snowfall
       style={{
         position: "fixed",
@@ -19,7 +19,7 @@ root.render(
       radius={[0.5, 2.0]}
     />
     <App />
-  </div>
+  </body>
 );
 
 // If you want to start measuring performance in your app, pass a function
