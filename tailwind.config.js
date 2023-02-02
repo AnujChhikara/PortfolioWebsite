@@ -8,7 +8,7 @@ module.exports = {
 
         md: "720px",
 
-        lg: "1440px",
+        lg: "1040px",
       },
       fontFamily: {
         nunito: ["nunito", "sans-serif"],
