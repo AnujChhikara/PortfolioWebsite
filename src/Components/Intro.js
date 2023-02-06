@@ -18,7 +18,7 @@ function Intro(props) {
         </div>
 
         <div
-          className={`md:text-2xl sm:text-lg mt-4 px-2 absolute ${
+          className={`md:text-2xl sm:text-lg mt-4 absolute ${
             props.darkMode ? "text-gray-300" : "text-[#434242]"
           }  `}
         >
@@ -27,8 +27,7 @@ function Intro(props) {
               typewriter
                 .typeString("I am a self-learned MERN stack developer")
                 .pauseFor(600)
-                .deleteAll()
-                .typeString(`Forever a student of code, always learning 🚀`)
+
                 .start();
             }}
           />

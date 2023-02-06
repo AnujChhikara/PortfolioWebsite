@@ -21,7 +21,7 @@ function Home() {
     <div
       className={`font-nunito flex flex-col md:items-center justify-center font-semibold w-screen h-fit  ${
         darkMode
-          ? "bg-gray-900 text-white "
+          ? "bg-[#111111] text-white "
           : "bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900"
       } `}
     >
@@ -47,7 +47,7 @@ function Home() {
         </div>
         <div
           className={`${
-            darkMode ? "bg-transparent" : "bg-teal-100"
+            darkMode ? "bg-transparent" : "bg-gray-300"
           } hover:scale-105 duration-1000 rounded-lg hover:shadow-orange-300 hover:shadow-sm`}
         >
           <Tech darkMode={darkMode} />
@@ -63,10 +63,11 @@ function Home() {
       <div data-aos="flip-left">
         <Projects darkMode={darkMode} />
       </div>
+
       {/* Thank you */}
       <div
         data-aos="flip-down"
-        className="mt-12 mx-auto px-4 sm:w-72 border  border-[#A31ACB] rounded-md text-gray-400 py-4"
+        className="mt-12 mx-auto px-4 sm:w-72 md:w-[500px] border-[3px] rounded-md text-gray-400 py-4"
       >
         <h4 className={`${darkMode ? "text-gray-400" : "text-black"}`}>
           Thanks for visiting my website. Your support is appreciated. Let me
