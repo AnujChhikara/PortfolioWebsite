@@ -12,9 +12,9 @@ function Intro(props) {
         <h2 className="">👋 Hi There!</h2>
         <div className="flex space-x-2 mt-3 ">
           <h2 className=""> I'm </h2>
-          <h3 className="text-[#D62AD0] fill md:text-3xl sm:text-2xl border border-xl border-[#D62AD0] shadow-[#D62AD0] rounded shadow-md p-1 px-3 ">
+          <h1 className="text-[#D62AD0] fill md:text-3xl sm:text-2xl border border-xl border-[#D62AD0] shadow-[#D62AD0] rounded shadow-md p-1 px-3 ">
             Anuj Chhikara
-          </h3>
+          </h1>
         </div>
 
         <div
