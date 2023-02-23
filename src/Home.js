@@ -33,9 +33,9 @@ function Home() {
       </header>
 
       {/* Intro */}
-      <h1 data-aos="fade-in" className="mb-20  ">
+      <div data-aos="fade-in" className="mb-20  ">
         <Intro darkMode={darkMode} />
-      </h1>
+      </div>
 
       {/* Technology */}
       <div className=" flex  flex-col justify-center items-center mt-10 mb-20">
