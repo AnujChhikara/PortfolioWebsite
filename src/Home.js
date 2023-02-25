@@ -60,7 +60,7 @@ function Home() {
       </div>
 
       {/* Project */}
-      <div data-aos="flip-left">
+      <div>
         <Projects darkMode={darkMode} />
       </div>
 
