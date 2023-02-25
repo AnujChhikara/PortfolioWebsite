@@ -5,7 +5,7 @@ function Intro(props) {
     <div className="md:flex md:flex-row font-Sans sm:flex sm:flex-col justify-center  sm:items-center items-center space-x-2 fade-in-left">
       <img
         className="md:w-60 sm:w-32 mb-6  shadow-md shadow-yellow-100 duration-1000 hover:scale-95 rounded-full "
-        src="/profile.jpeg"
+        src="/Anuj_profile (1).jpg"
         alt=""
       />
       <div className="md:text-4xl sm:text-xl md:pl-4 md:pb-16 sm:mt-2 md:mt-0 ">
