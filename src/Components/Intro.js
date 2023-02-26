@@ -6,7 +6,7 @@ function Intro(props) {
       <img
         className="md:w-60 sm:w-32 mb-6  shadow-md shadow-yellow-100 duration-1000 hover:scale-95 rounded-full "
         src="/Anuj_profile (1).jpg"
-        alt=""
+        alt="photo.jpg"
       />
       <div className="md:text-4xl sm:text-xl md:pl-4 md:pb-16 sm:mt-2 md:mt-0 ">
         <h2 className="">👋 Hi There!</h2>
