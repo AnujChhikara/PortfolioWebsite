@@ -29,7 +29,7 @@ function Projects(props) {
       </div>
 
       <div
-        className={`border-2 p-3 rounded-lg shadow-sm  shadow-[#A31ACB] sm:text-sm md:text-lg ${
+        className={`p-4 rounded-lg shadow-sm  sm:text-sm md:text-lg ${
           props.darkMode ? "text-gray-400 bg-transparent" : "text-black "
         } `}
       >

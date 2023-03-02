@@ -5,6 +5,7 @@ import Tech from "./Components/Tech";
 import Journey from "./Components/Journey";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
+// import Career from "./Components/Career";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
@@ -46,13 +47,13 @@ function Home() {
           <hr className="h-0.5 border border-gray-700" />
         </div>
         <div
-          className={`${
-            darkMode ? "bg-transparent" : "bg-gray-300"
-          } hover:scale-105 duration-1000 rounded-lg hover:shadow-orange-300 hover:shadow-sm`}
+          className={`hover:scale-105 duration-1000 rounded-lg hover:shadow-orange-300 hover:shadow-sm`}
         >
           <Tech darkMode={darkMode} />
         </div>
       </div>
+      {/* Career */}
+      {/* <Career /> */}
 
       {/* Journey */}
       <div>
@@ -65,10 +66,7 @@ function Home() {
       </div>
 
       {/* Thank you */}
-      <div
-        data-aos="flip-down"
-        className="mt-12 mx-auto px-4 sm:w-72 md:w-[500px] border-[3px] rounded-md text-gray-400 py-4"
-      >
+      <div className="mt-12 mx-auto sm:w-72 md:w-[500px]  rounded-md text-gray-400 py-4">
         <h4 className={`${darkMode ? "text-gray-400" : "text-black"}`}>
           Thanks for visiting my website. Your support is appreciated. Let me
           know if you have any feedback. 😊

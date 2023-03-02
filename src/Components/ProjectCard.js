@@ -15,7 +15,7 @@ function ProjectCard(props) {
           <h4>Live Demo</h4>
           <a href={`${props.link}`}>
             <svg
-              className="w-6 fill-transparent "
+              className="w-6 fill-white "
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >

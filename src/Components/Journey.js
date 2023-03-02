@@ -1,6 +1,6 @@
 function Journey(props) {
   return (
-    <div className="flex flex-col justify-center items-center space-y-4  md:w-[600px] sm:px-6 md:px-0  lg:px-0 lg:w-[800px] mx-12 sm:mx-2">
+    <div className="flex flex-col justify-center items-center space-y-4  md:w-[600px] sm:px-4 md:px-0  lg:px-0 lg:w-[800px] mx-12 sm:mx-2">
       <div className="mb-2">
         <h2 className={`text-xl `}>
           My Development Journey
@@ -8,11 +8,9 @@ function Journey(props) {
         </h2>
       </div>
       <div
-        className={`sm:text-sm md:text-lg ${
-          props.darkMode
-            ? "text-gray-400 bg-transparent"
-            : "text-black bg-gray-300 border-gray-300 "
-        } hover:scale-105 duration-1000 border-[3px] p-5  rounded-lg shadow-md shadow-[#A31ACB] flex flex-col space-y-4 tracking-tight font-thin `}
+        className={`sm:text-md bg-transparent md:text-lg ${
+          props.darkMode ? "text-gray-400 " : "text-black border-gray-300 "
+        } hover:scale-105 duration-1000 border-[3px] p-3  rounded-lg shadow-md shadow-[#A31ACB] flex flex-col space-y-4 tracking-tight font-thin `}
       >
         <div className="px-4 rounded-lg ">
           <h3>
