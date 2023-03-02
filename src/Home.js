@@ -61,7 +61,7 @@ function Home() {
       </div>
 
       {/* Project */}
-      <div data-aos="flip-left">
+      <div>
         <Projects darkMode={darkMode} />
       </div>
 
@@ -80,7 +80,7 @@ function Home() {
         >
           <img
             src="https://www.svgrepo.com/show/404657/email-notification-message-envelope-letter-chat.svg"
-            alt=""
+            alt="email.jpeg"
           />
         </a>
         <a
@@ -89,7 +89,7 @@ function Home() {
         >
           <img
             src="https://www.svgrepo.com/show/372862/github-full.svg"
-            alt=""
+            alt="githubIcon.jpeg"
           />
         </a>
       </div>
