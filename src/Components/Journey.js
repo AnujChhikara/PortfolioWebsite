@@ -9,8 +9,8 @@ function Journey(props) {
       </div>
       <div
         className={`sm:text-md bg-transparent md:text-lg ${
-          props.darkMode ? "text-gray-400 " : "text-black border-gray-300 "
-        } hover:scale-105 duration-1000 border-[3px] p-3  rounded-lg shadow-md shadow-[#A31ACB] flex flex-col space-y-4 tracking-tight font-thin `}
+          props.darkMode ? "text-gray-200 " : "text-black  "
+        }  duration-1000  p-3  rounded-lg shadow-md shadow-white flex flex-col space-y-4 tracking-tight font-thin `}
       >
         <div className="px-4 rounded-lg ">
           <h3>

@@ -16,7 +16,7 @@ function Projects(props) {
     <div className="mt-10 flex flex-col justify-center items-center space-y-4 sm:px-6  md:px-16 mx-12 sm:mx-4">
       <div className="">
         <h2 className="text-xl">
-          My First Steps in MERN Stack{" "}
+          Projects
           <hr className="h-0.5 mt-1 border border-gray-700" />
         </h2>
       </div>
@@ -29,8 +29,8 @@ function Projects(props) {
       </div>
 
       <div
-        className={`p-4 rounded-lg shadow-sm  sm:text-sm md:text-lg ${
-          props.darkMode ? "text-gray-400 bg-transparent" : "text-black "
+        className={`p-4  sm:text-sm md:text-lg ${
+          props.darkMode ? "text-gray-200 bg-transparent" : "text-black "
         } `}
       >
         <div className="">

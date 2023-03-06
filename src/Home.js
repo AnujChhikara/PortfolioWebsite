@@ -62,7 +62,7 @@ function Home() {
 
       {/* Thank you */}
       <div className="mt-12 mx-auto sm:w-72 md:w-[500px]  rounded-md text-gray-400 py-4">
-        <h4 className={`${darkMode ? "text-gray-400" : "text-black"}`}>
+        <h4 className={`${darkMode ? "text-gray-200" : "text-black"}`}>
           Thanks for visiting my website. Your support is appreciated. Let me
           know if you have any feedback. 😊
         </h4>
