@@ -6,12 +6,7 @@ import Journey from "./Components/Journey";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 // import Career from "./Components/Career";
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
-AOS.init({
-  duration: 1200,
-});
+
 function Home() {
   const [darkMode, setDarkMode] = useState(true);
   function toggleDarkMode() {
@@ -34,7 +29,7 @@ function Home() {
       </header>
 
       {/* Intro */}
-      <div data-aos="fade-in" className="mb-20  ">
+      <div className="mb-20  ">
         <Intro darkMode={darkMode} />
       </div>
 
