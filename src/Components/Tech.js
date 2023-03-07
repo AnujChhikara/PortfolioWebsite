@@ -1,6 +1,6 @@
 function Tech(props) {
   return (
-    <div className="flex rounded-lg md:hover:scale-105 lg:hover:scale-100 duration-1000 flex-wrap md:space-x-16 sm:space-x-2 p-2  border-2 shadow-md shadow-white  md:w-[600px] lg:w-[800px] md:h-80   sm:w-[280px] sm:h-60 justify-center items-center">
+    <div className="flex rounded-lg md:hover:scale-105 lg:hover:scale-100 duration-1000 flex-wrap md:space-x-16 sm:space-x-2 p-2   shadow-md shadow-white  md:w-[600px] lg:w-[800px] md:h-80   sm:w-[280px] sm:h-60 justify-center items-center">
       <div className="md:md:w-16 sm:w-12 ">
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26" />
