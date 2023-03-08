@@ -4,10 +4,9 @@ function Intro(props) {
   return (
     <div className="md:flex md:flex-row font-Sans sm:flex sm:flex-col justify-center  sm:items-center items-center space-x-2 fade-in-left">
       <img
-        className="md:w-60 sm:w-32 mb-6 duration-1000  rounded-full "
-        src="https://i.ibb.co/tCW9rqV/Anuj-profile-modified.jpg"
-        alt="Anuj-profile-modified"
-        border="0"
+        className="md:w-60 sm:w-40 mb-6 duration-1000  rounded-full "
+        src="./anuj.jpg"
+        alt="Anuj-profile-img"
       />
 
       <div className="md:text-4xl sm:text-xl md:pl-4 md:pb-16 sm:mt-2 md:mt-0 ">

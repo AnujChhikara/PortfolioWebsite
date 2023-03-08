@@ -5,7 +5,7 @@ import Tech from "./Components/Tech";
 import Journey from "./Components/Journey";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
-// import Career from "./Components/Career";
+import Career from "./Components/Career";
 
 function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -48,7 +48,7 @@ function Home() {
         </div>
       </div>
       {/* Career */}
-      {/* <Career /> */}
+      <Career />
 
       {/* Journey */}
       <div>
@@ -61,7 +61,7 @@ function Home() {
       </div>
 
       {/* Thank you */}
-      <div className="mt-12 mx-auto sm:w-72 md:w-[500px]  rounded-md text-gray-400 py-4">
+      <div className="mt-4 mx-auto sm:w-72 md:w-[500px]  rounded-md text-gray-400 py-4">
         <h4 className={`${darkMode ? "text-gray-200" : "text-black"}`}>
           Thanks for visiting my website. Your support is appreciated. Let me
           know if you have any feedback. 😊
@@ -88,11 +88,20 @@ function Home() {
           />
         </a>
       </div>
+
       {/* footer */}
 
-      <footer className="p-2 scale- mt-auto font-sans font-medium w-screen flex justify-center ">
-        built with ❤️ anuj
-      </footer>
+      <section className=" opacity-60">
+        <div class="wave wave1 ">
+          <footer className="p-2  text-gray-900  mt-10 font-sans font-medium w-screen flex justify-center ">
+            built with ❤️ anuj
+          </footer>
+        </div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+
+        <div class="wave wave4"></div>
+      </section>
     </div>
   );
 }

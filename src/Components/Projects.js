@@ -41,7 +41,7 @@ function Projects(props) {
           </p>
         </div>
       </div>
-      <div className="pt-6">
+      <div className="">
         <hr className="h-0.5 w-80  border border-gray-400 " />
       </div>
     </div>
