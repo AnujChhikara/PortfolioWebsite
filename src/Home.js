@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "./App.css";
 import Intro from "./Components/Intro";
 import Tech from "./Components/Tech";
@@ -9,6 +10,7 @@ import Career from "./Components/Career";
 
 function Home() {
   const [darkMode, setDarkMode] = useState(true);
+
   function toggleDarkMode() {
     setDarkMode((prevDarkMode) => !prevDarkMode);
   }
@@ -34,6 +36,7 @@ function Home() {
       </div>
 
       {/* Technology */}
+
       <div className=" flex  flex-col justify-center items-center mt-10 mb-20">
         <div className="flex flex-col md:mb-8 sm:mb-6">
           <h3 className={`text-2xl font-Sans font-semibold `}>
@@ -47,11 +50,12 @@ function Home() {
           <Tech darkMode={darkMode} />
         </div>
       </div>
+
       {/* Career */}
       <Career />
 
       {/* Journey */}
-      <div>
+      <div id="1">
         <Journey darkMode={darkMode} />
       </div>
 
@@ -90,18 +94,19 @@ function Home() {
       </div>
 
       {/* footer */}
+      <footer>
+        <section className=" opacity-60">
+          <div class="wave wave1 ">
+            <div className="p-2  text-gray-900  mt-10 font-sans font-medium w-screen flex justify-center ">
+              built with ❤️ anuj
+            </div>
+          </div>
+          <div class="wave wave2"></div>
+          <div class="wave wave3"></div>
 
-      <section className=" opacity-60">
-        <div class="wave wave1 ">
-          <footer className="p-2  text-gray-900  mt-10 font-sans font-medium w-screen flex justify-center ">
-            built with ❤️ anuj
-          </footer>
-        </div>
-        <div class="wave wave2"></div>
-        <div class="wave wave3"></div>
-
-        <div class="wave wave4"></div>
-      </section>
+          <div class="wave wave4"></div>
+        </section>
+      </footer>
     </div>
   );
 }
