@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <div
-      className={`font-nunito flex flex-col md:items-center justify-center font-semibold w-screen h-fit  ${
+      className={`font-mon flex flex-col md:items-center justify-center font-semibold w-screen h-fit  ${
         darkMode
           ? "bg-[#111111] text-white "
           : "bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900"
@@ -39,8 +39,8 @@ function Home() {
 
       <div className=" flex  flex-col justify-center items-center mt-10 mb-20">
         <div className="flex flex-col md:mb-8 sm:mb-6">
-          <h3 className={`text-2xl font-Sans font-semibold `}>
-            Technologies I Work With
+          <h3 className={`text-2xl font-play font-semibold `}>
+            My Favorite Tech
           </h3>
           <hr className="h-0.5 border border-gray-700" />
         </div>
@@ -65,14 +65,14 @@ function Home() {
       </div>
 
       {/* Thank you */}
-      <div className="mt-4 mx-auto sm:w-72 md:w-[500px]  rounded-md text-gray-400 py-4">
+      <div className="mt-10 mx-auto sm:w-72 md:w-[500px]  rounded-md text-gray-400 py-4">
         <h4 className={`${darkMode ? "text-gray-200" : "text-black"}`}>
           Thanks for visiting my website. Your support is appreciated. Let me
           know if you have any feedback. 😊
         </h4>
       </div>
       {/* contact */}
-      <div className="w-32 mt-4 flex mx-auto flex-row space-x-4 mb-10 ">
+      <div className="w-32  flex mx-auto flex-row space-x-4 mb-10 ">
         <a
           className="hover:scale-110 duration-1000"
           href="mailto:anujchhikara777@gmail.com"
@@ -95,17 +95,9 @@ function Home() {
 
       {/* footer */}
       <footer>
-        <section className=" opacity-60">
-          <div class="wave wave1 ">
-            <div className="p-2  text-gray-900  mt-10 font-sans font-medium w-screen flex justify-center ">
-              built with ❤️ anuj
-            </div>
-          </div>
-          <div class="wave wave2"></div>
-          <div class="wave wave3"></div>
-
-          <div class="wave wave4"></div>
-        </section>
+        <div className="p-2 font-sans font-medium w-screen flex justify-center ">
+          built with ❤️ anuj
+        </div>
       </footer>
     </div>
   );

@@ -15,14 +15,14 @@ function Projects(props) {
   return (
     <div className="mt-10 flex flex-col justify-center items-center space-y-4 sm:px-6  md:px-16 mx-12 sm:mx-4">
       <div className="">
-        <h2 className="text-xl">
+        <h2 className="text-xl font-play">
           Projects
           <hr className="h-0.5 mt-1 border border-gray-700" />
         </h2>
       </div>
       <div
         className={`sm:flex ${
-          props.darkMode ? "text-gray-400" : "text-black"
+          props.darkMode ? "text-gray-300" : "text-black"
         }  sm:flex-col md:grid md:grid-cols-2 md:gap-4 sm:space-x-0 sm:items-center sm:space-y-4 md:space-y-0 pb-4`}
       >
         {cards}

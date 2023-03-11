@@ -14,6 +14,8 @@ module.exports = {
         nunito: ["nunito", "sans-serif"],
         Sans: ["Source Sans Pro", "sans-serif"],
         merri: ["Merriweather", "serif"],
+        play: ["Playfair Display", "serif"],
+        mon: ["Montserrat", "sans-serif"],
       },
     },
   },

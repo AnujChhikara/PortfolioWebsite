@@ -1,6 +1,6 @@
 function Career() {
   return (
-    <div className="flex flex-col justify-start  mb-20  text-xl">
+    <div className="flex font-play flex-col justify-start  mb-20  text-xl">
       <h2 className="text-xl  flex flex-col items-center justify-center mb-6 ">
         Professional Experience
         <hr className="h-0.5 w-60 mt-1 border border-gray-700" />

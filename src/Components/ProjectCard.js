@@ -4,7 +4,9 @@ function ProjectCard(props) {
       <div>
         <div className="flex space-x-6 items-center justify-center  ">
           <div className="w-12">{props.svg}</div>
-          <h2 className="text-[16px] font-sans">{props.title}</h2>
+          <h2 className="text-[16px] underline underline-offset-4 font-sans">
+            {props.title}
+          </h2>
         </div>
         <div className="">
           <h5 className="text-[13px] font-thin leading-[13px] p-2">
