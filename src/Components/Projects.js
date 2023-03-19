@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import ProjectData from "./ProjectData";
-function Projects(props) {
+function Projects() {
   const cards = ProjectData.map(function (item) {
     return (
       <ProjectCard
@@ -21,17 +21,16 @@ function Projects(props) {
         </h2>
       </div>
       <div
-        className={`sm:flex ${
-          props.darkMode ? "text-gray-300" : "text-black"
-        }  sm:flex-col md:grid md:grid-cols-2 md:gap-4 sm:space-x-0 sm:items-center sm:space-y-4 md:space-y-0 pb-4`}
+        className={`sm:flex 
+          text-gray-300 sm:flex-col md:grid md:grid-cols-2 md:gap-4 sm:space-x-0 sm:items-center sm:space-y-4 md:space-y-0 pb-4`}
       >
         {cards}
       </div>
 
       <div
-        className={`p-4  sm:text-sm md:text-lg ${
-          props.darkMode ? "text-gray-200 bg-transparent" : "text-black "
-        } `}
+        className={`p-4  sm:text-sm md:text-lg 
+         text-gray-200 bg-transparent
+         `}
       >
         <div className="">
           <p className="w-72 text-sm font-thin tracking-tight">

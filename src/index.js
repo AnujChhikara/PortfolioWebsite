@@ -16,7 +16,7 @@ root.render(
       snowflakeCount={70}
       speed={[0.5, 1.0]}
       wind={[-0.5, 0.5]}
-      radius={[0.5, 2.0]}
+      radius={[0.1, 1.0]}
     />
     <App />
   </div>

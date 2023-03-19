@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import "./App.css";
 import Intro from "./Components/Intro";
 import Tech from "./Components/Tech";
@@ -7,37 +5,34 @@ import Journey from "./Components/Journey";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Career from "./Components/Career";
-
+import Solar from "./Components/Solar";
 function Home() {
-  const [darkMode, setDarkMode] = useState(true);
-
-  function toggleDarkMode() {
-    setDarkMode((prevDarkMode) => !prevDarkMode);
-  }
-
   return (
     <div
-      className={`font-mon flex flex-col md:items-center justify-center font-semibold w-screen h-fit  ${
-        darkMode
-          ? "bg-[#111111] text-white "
-          : "bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900"
-      } `}
+      className={`font-mon flex flex-col md:items-center justify-center font-semibold w-screen h-fit  
+        
+       `}
     >
       {/* Navbar */}
+
       <header className="mb-2">
         <div className="md:mb-28 sm:mb-10 mr-2">
-          <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+          <Navbar />
         </div>
       </header>
 
       {/* Intro */}
-      <div className="mb-20  ">
-        <Intro darkMode={darkMode} />
+      <div className="lg:mr-72">
+        <Intro />
+      </div>
+
+      <div className="hidden lg:block ">
+        <Solar />
       </div>
 
       {/* Technology */}
 
-      <div className=" flex  flex-col justify-center items-center mt-10 mb-20">
+      <div className=" flex  flex-col justify-center items-center lg:mt-48 sm:mt-28 mb-20">
         <div className="flex flex-col md:mb-8 sm:mb-6">
           <h3 className={`text-2xl font-play font-semibold `}>
             My Favorite Tech
@@ -47,7 +42,7 @@ function Home() {
         <div
           className={`hover:scale-105 duration-1000 rounded-lg hover:shadow-orange-300 hover:shadow-sm`}
         >
-          <Tech darkMode={darkMode} />
+          <Tech />
         </div>
       </div>
 
@@ -56,17 +51,17 @@ function Home() {
 
       {/* Journey */}
       <div id="1">
-        <Journey darkMode={darkMode} />
+        <Journey />
       </div>
 
       {/* Project */}
       <div>
-        <Projects darkMode={darkMode} />
+        <Projects />
       </div>
 
       {/* Thank you */}
       <div className="mt-10 mx-auto sm:w-72 md:w-[500px]  rounded-md text-gray-400 py-4">
-        <h4 className={`${darkMode ? "text-gray-200" : "text-black"}`}>
+        <h4 className="text-gray-200">
           Thanks for visiting my website. Your support is appreciated. Let me
           know if you have any feedback. 😊
         </h4>

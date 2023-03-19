@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 
-function Intro(props) {
+function Intro() {
   return (
     <div className="md:flex md:flex-row font-Sans sm:flex sm:flex-col justify-center  sm:items-center items-center space-x-2 fade-in-left">
       <img
@@ -13,15 +13,15 @@ function Intro(props) {
         <h2 className="">👋 Hi There!</h2>
         <div className="flex space-x-2 mt-3 ">
           <h2 className=""> I'm </h2>
-          <h1 className="font-play text-[#D62AD0] font-extrabold fill md:text-3xl sm:text-[24px] border border-xl border-[#D62AD0] shadow-[#D62AD0] rounded shadow-md p-1 px-3 ">
+          <h1 className="font-play text-[#D62AD0] font-extrabold fill md:text-3xl sm:text-[24px] border border-xl border-[#D62AD0] shadow-[#D62AD0] rounded shadow-lg p-1 px-3 py-2">
             Anuj Chhikara
           </h1>
         </div>
 
         <div
-          className={`md:text-2xl sm:text-lg mt-4 absolute ${
-            props.darkMode ? "text-gray-300" : "text-[#434242]"
-          }  `}
+          className={`md:text-2xl sm:text-lg mt-4 absolute 
+            "text-gray-300
+           `}
         >
           <Typewriter
             onInit={(typewriter) => {

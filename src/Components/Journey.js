@@ -1,4 +1,4 @@
-function Journey(props) {
+function Journey() {
   return (
     <div className="flex flex-col justify-center items-center space-y-4  md:w-[600px] sm:px-4 md:px-0  lg:px-0 lg:w-[800px] mx-12 sm:mx-2">
       <div className="mb-2">
@@ -8,9 +8,9 @@ function Journey(props) {
         </h2>
       </div>
       <div
-        className={`sm:text-md bg-transparent md:text-lg ${
-          props.darkMode ? "text-gray-200 " : "text-black  "
-        }  duration-1000  p-3  rounded-lg shadow-md shadow-white flex flex-col space-y-4 tracking-tight font-thin `}
+        className={`sm:text-md bg-transparent md:text-lg 
+        text-gray-200 
+         duration-1000  p-3  rounded-lg shadow-md shadow-white flex flex-col space-y-4 tracking-tight font-thin `}
       >
         <div className="px-4 font-nunito rounded-lg ">
           <h3>
