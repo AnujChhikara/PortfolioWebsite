@@ -17,7 +17,7 @@ function Projects() {
       <div className="">
         <h2 className="text-xl font-play">
           Projects
-          <hr className="h-0.5 mt-1 border border-gray-700" />
+          <hr className="h-0.5 mt-1 border border-gray-500" />
         </h2>
       </div>
       <div
@@ -33,7 +33,7 @@ function Projects() {
          `}
       >
         <div className="">
-          <p className="w-72 text-sm font-thin tracking-tight">
+          <p className="sm:w-72 md:w-[650px] text-sm font-thin tracking-tight">
             I'm excited to keep learning and building more cool projects. As I
             get better, I'll be taking on bigger and more complex projects, and
             I can't wait to show you what I'll come up with next.

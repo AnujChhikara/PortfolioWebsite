@@ -4,7 +4,7 @@ function Journey() {
       <div className="mb-2">
         <h2 className={`text-xl font-play `}>
           My Development Journey
-          <hr className="h-0.5 mt-1 border border-gray-700" />
+          <hr className="h-0.5 mt-1 border border-gray-500" />
         </h2>
       </div>
       <div

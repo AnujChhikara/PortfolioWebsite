@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="flex w-screen justify-end md:pr-8 sm:pr-4 pt-4 space-x-2">
+    <div className="flex w-screen justify-end md:pr-8 sm:pr-4 pt-4 lg:space-x-3 sm:space-x-2">
       <a href="https://twitter.com/AnujChhikara07">
         <svg
           className=" w-8 fill-transparent hover:fill-[#00acee] sm:hover:-translate-y-0  duration-500 md:hover:-translate-y-0.5"

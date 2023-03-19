@@ -16,7 +16,7 @@ function Home() {
       {/* Navbar */}
 
       <header className="mb-2">
-        <div className="md:mb-28 sm:mb-10 mr-2">
+        <div className="md:mb-28 md:mt-6 sm:mb-10 mr-52">
           <Navbar />
         </div>
       </header>
@@ -37,7 +37,7 @@ function Home() {
           <h3 className={`text-2xl font-play font-semibold `}>
             My Favorite Tech
           </h3>
-          <hr className="h-0.5 border border-gray-700" />
+          <hr className="h-0.5 border border-gray-500" />
         </div>
         <div
           className={`hover:scale-105 duration-1000 rounded-lg hover:shadow-orange-300 hover:shadow-sm`}

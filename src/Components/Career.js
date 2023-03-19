@@ -3,7 +3,7 @@ function Career() {
     <div className="flex font-play flex-col justify-start  mb-20  text-xl">
       <h2 className="text-xl  flex flex-col items-center justify-center mb-6 ">
         Professional Experience
-        <hr className="h-0.5 w-60 mt-1 border border-gray-700" />
+        <hr className="h-0.5 w-60 mt-1 border border-gray-500" />
       </h2>
       <div className="flex sm:flex-col md:flex-row  justify-center items-center">
         <div className="flex text-[18px] items-center justify-center">
