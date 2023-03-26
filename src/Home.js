@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Career from "./Components/Career";
 import Solar from "./Components/Solar";
+
 function Home() {
   return (
     <div
@@ -50,7 +51,7 @@ function Home() {
       <Career />
 
       {/* Journey */}
-      <div id="1">
+      <div>
         <Journey />
       </div>
 
@@ -90,7 +91,7 @@ function Home() {
 
       {/* footer */}
       <footer>
-        <div className="p-2 font-sans font-medium w-screen flex justify-center ">
+        <div className="p-2 text-white font-sans font-medium w-screen flex justify-center ">
           built with ❤️ anuj
         </div>
       </footer>
