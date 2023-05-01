@@ -4,7 +4,7 @@ function Intro() {
   return (
     <div className="md:flex md:flex-row font-Sans sm:flex sm:flex-col justify-center  sm:items-center items-center space-x-4 fade-in-left">
       <img
-        className="md:w-60 sm:w-40 mb-6 duration-1000  rounded-full "
+        className="md:w-48 border-2 shadow-md hover:shadow-white hover:shadow-md shadow-white sm:w-40 -rotate-6 mb-6 duration-1000  rounded-full "
         src="./anuj.jpg"
         alt="Anuj-profile-img"
       />
