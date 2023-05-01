@@ -14,7 +14,7 @@ function Projects() {
   });
   return (
     <div className="mt-10 flex flex-col justify-center items-center space-y-4 sm:px-6  md:px-16 mx-12 sm:mx-4">
-      <div className="">
+      <div className="md:mb-6 sm:mb-2">
         <h2 className="text-xl font-play">
           Projects
           <hr className="h-0.5 mt-1 border border-gray-500" />
@@ -22,7 +22,7 @@ function Projects() {
       </div>
       <div
         className={`sm:flex 
-          text-gray-300 sm:flex-col md:grid md:grid-cols-2 md:gap-4 sm:space-x-0 sm:items-center sm:space-y-4 md:space-y-0 pb-4`}
+          text-gray-300 sm:flex-col md:grid md:grid-cols-2 md:gap-8  sm:space-x-0 sm:items-center sm:space-y-4 md:space-y-0 pb-4`}
       >
         {cards}
       </div>
