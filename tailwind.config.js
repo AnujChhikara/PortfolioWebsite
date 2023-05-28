@@ -10,12 +10,16 @@ module.exports = {
 
         lg: "1040px",
       },
+      backgroundImage: {
+        earth: "url('../public/e2.jpg')",
+      },
       fontFamily: {
         nunito: ["nunito", "sans-serif"],
         Sans: ["Source Sans Pro", "sans-serif"],
         merri: ["Merriweather", "serif"],
         play: ["Playfair Display", "serif"],
         mon: ["Montserrat", "sans-serif"],
+        starjedi: ["Star Jedi", "Star Wars", "sans-serif"],
       },
     },
   },

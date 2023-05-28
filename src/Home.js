@@ -5,37 +5,34 @@ import Journey from "./Components/Journey";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Career from "./Components/Career";
-import Solar from "./Components/Solar";
 
 function Home() {
   return (
     <div
-      className={`font-mon flex flex-col md:items-center justify-center font-semibold w-screen h-fit  
+      className={`font-mon bg-earth bg-contain bg-no-repeat flex flex-col md:items-center justify-center font-semibold w-screen h-fit  
         
        `}
     >
       {/* Navbar */}
 
-      <header className="mb-2">
+      <header className="mb-2 ">
         <div className="md:mb-28 md:mt-6 sm:mb-10 mr-52">
           <Navbar />
         </div>
       </header>
 
       {/* Intro */}
-      <div className="lg:mr-72">
+      <div className="lg:mr-72  ">
         <Intro />
-      </div>
-
-      <div className="hidden lg:block ">
-        <Solar />
       </div>
 
       {/* Technology */}
 
       <div className=" flex  flex-col justify-center items-center lg:mt-48 sm:mt-28 mb-20">
         <div className="flex flex-col md:mb-8 sm:mb-6">
-          <h3 className={`text-2xl font-play font-semibold `}>
+          <h3
+            className={`sm:text-2xl md:text-3xl font-play md:text-yellow-400 font-semibold `}
+          >
             My Favorite Tech
           </h3>
           <hr className="h-0.5 border border-gray-500" />
@@ -56,7 +53,7 @@ function Home() {
       </div>
 
       {/* Project */}
-      <div>
+      <div className="">
         <Projects />
       </div>
 

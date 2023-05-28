@@ -10,9 +10,9 @@ function Career() {
           <div className="flex flex-col  duration-500 shadow-white shadow-md rounded-xl  px-8 py-6">
             <h3 className=" text-2xl flex text-transparent bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 bg-clip-text ">
               Graphic
-              <h4 className="ml-2 text-transparent bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 bg-clip-text ">
+              <p className="ml-2 text-transparent bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 bg-clip-text ">
                 Designer
-              </h4>
+              </p>
             </h3>
 
             <h4>
