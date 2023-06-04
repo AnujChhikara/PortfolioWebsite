@@ -9,26 +9,26 @@ import Career from "./Components/Career";
 function Home() {
   return (
     <div
-      className={`font-mon bg-earth bg-contain bg-no-repeat flex flex-col md:items-center justify-center font-semibold w-screen h-fit  
+      className={`font-mon flex flex-col md:items-center justify-center font-semibold w-screen
         
        `}
     >
       {/* Navbar */}
+      <div className="md:bg-earth sm:bg-earth md:bg-cover sm:bg-cover w-screen md:flex sm:flex sm:flex-col md:flex-row-reverse  bg-no-repeat">
+        <header className=" ">
+          <div className="md:mb-28 md:mt-6 md:mr-16 flex justify-end ">
+            <Navbar />
+          </div>
+        </header>
 
-      <header className="mb-2 ">
-        <div className="md:mb-28 md:mt-6 sm:mb-10 mr-52">
-          <Navbar />
+        {/* Intro */}
+        <div className="lg:mr-60  sm:mt-20 sm:mb-12 md:mt-52 md:mb-[500px] ">
+          <Intro />
         </div>
-      </header>
-
-      {/* Intro */}
-      <div className="lg:mr-72  ">
-        <Intro />
       </div>
-
       {/* Technology */}
 
-      <div className=" flex  flex-col justify-center items-center lg:mt-48 sm:mt-28 mb-20">
+      <div className=" flex  flex-col justify-center items-center lg:mt-24  sm:mt-12 mb-20">
         <div className="flex flex-col md:mb-8 sm:mb-6">
           <h3
             className={`sm:text-2xl md:text-3xl font-play md:text-yellow-400 font-semibold `}

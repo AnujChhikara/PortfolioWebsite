@@ -9,7 +9,7 @@ function Intro() {
         alt="Anuj-profile-img"
       />
       <div className="flex flex-col justify-center text-3xl font-nunito items-start space-y-3">
-        <h3>👋 Hi There!</h3>
+        <h3 className="">👋 Hi There!</h3>
         <div className="flex space-x-4">
           <h4>I'm </h4>
           <h1 class="outlined-text md:text-[50px]">Anuj Chhikara</h1>

@@ -11,7 +11,8 @@ module.exports = {
         lg: "1040px",
       },
       backgroundImage: {
-        earth: "url('../public/e2.jpg')",
+        earth: "url('../public/e.jpg')",
+        earthSm: "url('../public/e1.jpg')",
       },
       fontFamily: {
         nunito: ["nunito", "sans-serif"],

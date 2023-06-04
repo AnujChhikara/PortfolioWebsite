@@ -87,9 +87,15 @@ body {
 .outlined-text {
   font-family: "Star Jedi", sans-serif;
 
-  color: transparent;
   -webkit-text-stroke: 2px yellow;
-  -webkit-text-fill-color: black;
+  background: linear-gradient(
+    to right,
+
+    #e96443,
+    #904e95
+  ); /* Background gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .star {
