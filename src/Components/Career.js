@@ -23,6 +23,7 @@ function Career() {
               >
                 Speedex
               </a>
+             
             </h4>
             <h5>2022 - Current</h5>
           </div>

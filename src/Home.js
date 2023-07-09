@@ -14,7 +14,7 @@ function Home() {
        `}
     >
       {/* Navbar */}
-      <div className="md:bg-earth sm:bg-earth md:bg-cover sm:bg-cover w-screen md:flex sm:flex sm:flex-col md:flex-row-reverse  bg-no-repeat">
+      <div className="  md:flex sm:flex sm:flex-col md:flex-row-reverse">
         <header className=" ">
           <div className="md:mb-28 md:mt-6 md:mr-16 flex justify-end ">
             <Navbar />
