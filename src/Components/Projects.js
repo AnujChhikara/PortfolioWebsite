@@ -15,7 +15,7 @@ function Projects() {
   return (
     <div className="mt-10 flex flex-col justify-center items-center space-y-4 sm:px-6  md:px-16 mx-12 sm:mx-4">
       <div className="md:mb-6 sm:mb-2">
-        <h2 className="text-xl font-play">
+        <h2 className="sm:text-xl md:text-4xl  star ">
           Projects
           <hr className="h-0.5 mt-1 border border-gray-500" />
         </h2>

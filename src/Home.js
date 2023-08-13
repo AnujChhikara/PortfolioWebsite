@@ -22,7 +22,7 @@ function Home() {
         </header>
 
         {/* Intro */}
-        <div className="lg:mr-60  sm:mt-20 sm:mb-12 md:mt-52 md:mb-[500px] ">
+        <div className="-  sm:mt-20 sm:mb-12 md:mt-52  ">
           <Intro />
         </div>
       </div>
@@ -31,7 +31,7 @@ function Home() {
       <div className=" flex  flex-col justify-center items-center lg:mt-24  sm:mt-12 mb-20">
         <div className="flex flex-col md:mb-8 sm:mb-6">
           <h3
-            className={`sm:text-2xl md:text-3xl font-play md:text-yellow-400 font-semibold `}
+            className={`sm:text-xl md:text-4xl  star  font-play md:text-yellow-400 font-semibold `}
           >
             My Favorite Tech
           </h3>
@@ -89,7 +89,7 @@ function Home() {
       {/* footer */}
       <footer>
         <div className="p-2 text-white font-sans font-medium w-screen flex justify-center ">
-          built with ❤️ anuj
+          built with ❤️ <span className="ml-1 star">anuj</span>
         </div>
       </footer>
     </div>

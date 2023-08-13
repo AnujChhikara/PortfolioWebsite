@@ -87,19 +87,24 @@ body {
 .outlined-text {
   font-family: "Star Jedi", sans-serif;
 
-  -webkit-text-stroke: 2px yellow;
-  background: linear-gradient(
-    to right,
-
-    #e96443,
-    #904e95
-  ); /* Background gradient */
+  -webkit-text-stroke: 1px yellow;
+  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: url("https://images.unsplash.com/photo-1615378536579-61c7d173e8a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
 }
 
 .star {
   font-family: "Star Jedi", sans-serif;
   color: transparent;
-  -webkit-text-stroke: 1px yellow;
+  -webkit-text-stroke: 0.5px yellow;
+  background-clip: text;
+  background-image: url("https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFya3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  
 }
+
+.projectBg{
+  background-image: url("https://images.unsplash.com/photo-1611107875582-684c70574042?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHN0YXJzfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+

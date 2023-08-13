@@ -2,7 +2,7 @@ function Journey() {
   return (
     <div className="flex flex-col justify-center items-center space-y-4  md:w-[600px] sm:px-4 md:px-0  lg:px-0 lg:w-[800px] mx-12 sm:mx-2">
       <div className="mb-2">
-        <h2 className={`text-xl font-play `}>
+        <h2 className={`sm:text-xl md:text-4xl  star `}>
           My Development Journey
           <hr className="h-0.5 mt-1 border border-gray-500" />
         </h2>
