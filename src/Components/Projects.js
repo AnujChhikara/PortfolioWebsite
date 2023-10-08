@@ -6,8 +6,9 @@ function Projects() {
       <ProjectCard
         title={item.title}
         svg={item.svg}
+        githubLink={item.githubLink}
         brief={item.brief}
-        link={item.link}
+        live={item.live}
         key={item.id}
       />
     );
