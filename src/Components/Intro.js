@@ -12,7 +12,7 @@ function Intro() {
         <h3 className="">👋 Hi There!</h3>
         <div className="flex space-x-4">
           <h4>I'm </h4>
-          <h1 class="outlined-text md:text-[50px]">Anuj Chhikara</h1>
+          <h1 className="outlined-text md:text-[50px]">Anuj Chhikara</h1>
         </div>
         <div
           className={`md:text-[28px] star sm:text-lg md:pt-2  md:relative

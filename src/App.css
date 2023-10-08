@@ -87,7 +87,7 @@ body {
 .outlined-text {
   font-family: "Star Jedi", sans-serif;
 
-  -webkit-text-stroke: 1px yellow;
+  -webkit-text-stroke: 0.5px yellow;
   
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -5,9 +5,11 @@ function Projects() {
     return (
       <ProjectCard
         title={item.title}
-        svg={item.svg}
+        tech1={item.tech1}
+        tech2={item.tech2}
+        tech3={item.tech3}
         githubLink={item.githubLink}
-        brief={item.brief}
+        img={item.img}
         live={item.live}
         key={item.id}
       />
@@ -23,7 +25,7 @@ function Projects() {
       </div>
       <div
         className={`sm:flex 
-          text-gray-300 sm:flex-col md:grid md:grid-cols-2 md:gap-8  sm:space-x-0 sm:items-center sm:space-y-4 md:space-y-0 pb-4`}
+          text-gray-300 sm:flex-col md:grid md:grid-cols-2 md:gap-12  sm:space-x-0 sm:items-center sm:space-y-4 md:space-y-0 pb-4`}
       >
         {cards}
       </div>
