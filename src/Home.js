@@ -44,8 +44,8 @@ function Home() {
         </div>
       </div>
 
-      {/* Career */}
-      <Career />
+      {/* Career 
+      <Career />*/}
 
       {/* Journey */}
       <div>
